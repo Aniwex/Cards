@@ -15,22 +15,22 @@ h5,p{
 	flex-wrap: wrap;
 }
 .wrapper-frame2{
-	position: absolute;
+	position: fixed;
 	color: #79C800;
 	top: 80px;
 }
 .wrapper-frame5{
-	position: absolute;
+	position: fixed;
 	right: 30%;
 	top: 430px;
 }
 .wrapper-decor{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 30%;
 }
 .wrapper-frame4{
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	right: 0;
 }
@@ -688,4 +688,10 @@ bottom: 0;
 .ellipse10-4-img{
 	top: -20px;
 	left: -28%;
+}
+
+@media (max-width: 1850px){
+	.wrapper-frame2{
+		display: none;
+	}
 }
