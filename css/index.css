@@ -6,10 +6,8 @@ h5,p{
 	margin: 0;
 	padding: 0;
 }
-
-
 .container {
-	height: 622px;
+	height: 317px;
 	display: flex;
 	width: 1600px;
 	margin: auto;
@@ -24,7 +22,7 @@ h5,p{
 .wrapper-frame5{
 	position: absolute;
 	right: 30%;
-	top: 510px;
+	top: 430px;
 }
 .wrapper-decor{
 	position: absolute;
@@ -34,7 +32,7 @@ h5,p{
 .wrapper-frame4{
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: 0;
 }
 .block__element1,.block__element2,.block__element3,.block__element1-1,.block__element2-2,.block__element3-3{
 	margin-right: 26px;
@@ -148,10 +146,12 @@ h5,p{
 	animation: sheet1 6s ease-in-out forwards;
 	animation-iteration-count: infinite;
 }
+
 .sheet2{
 	animation: sheet2 6s ease-in-out forwards;
 	animation-iteration-count: infinite;
 }
+
 @keyframes sheet1 {
 	25%{
 		transform: rotate(10deg);
@@ -588,6 +588,7 @@ h5,p{
 }
 .block__category{
 	height: 0px;
+	margin-bottom:120px;
 	flex: 0 1 100%;
 }
 .content__title{
