@@ -1,0 +1,690 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h5,p{
+	margin: 0;
+	padding: 0;
+}
+
+
+.container {
+	height: 622px;
+	display: flex;
+	width: 1600px;
+	margin: auto;
+	margin-top:150px;
+	flex-wrap: wrap;
+}
+.wrapper-frame2{
+	position: absolute;
+	color: #79C800;
+	top: 80px;
+}
+.wrapper-frame5{
+	position: absolute;
+	right: 30%;
+	top: 510px;
+}
+.wrapper-decor{
+	position: absolute;
+	top: 0;
+	right: 30%;
+}
+.wrapper-frame4{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.block__element1,.block__element2,.block__element3,.block__element1-1,.block__element2-2,.block__element3-3{
+	margin-right: 26px;
+}
+.block__element1-1,.block__element2-2,.block__element3-3,.block__element4-4{
+	display: none;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), rgba(121, 200, 0, 0.4);
+}
+/* Анимация 1 блока */
+.block__element1-1:hover .ellipse9-img{
+	animation: move-ellipce9 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element1-1:hover .ellipse10-img{
+	animation: move-ellipce10 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element1-1:hover .ellipse11-img {
+	animation: move-ellipce11 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element1-1:hover .lid-img{
+	position: absolute;
+	top: 17px;
+	left: 50%;
+	transform:rotate(10deg);
+}
+@keyframes move-ellipce9{
+	0%{
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(0%)translateY(100%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(150%)translateY(50%);
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(100%)translateY(-25%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+}
+@keyframes move-ellipce10 {
+	0%{
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(150%)translateY(150%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(-100%)translateY(80%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(250%)translateY(150%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+}
+@keyframes move-ellipce11 {
+	0%{
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(-250%)translateY(-150%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(-100%)translateY(-50%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(-100%)translateY(-150%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+}
+/* Анимация листьев */
+.sheet1{
+	animation: sheet1 6s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.sheet2{
+	animation: sheet2 6s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes sheet1 {
+	25%{
+		transform: rotate(10deg);
+	}
+	50%{
+		transform: rotate(-10deg);
+	}
+	75%{
+		transform: rotate(10deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+@keyframes sheet2 {
+	25%{
+		transform: rotate(-10deg);
+	}
+	50%{
+		transform: rotate(10deg);
+	}
+	75%{
+		transform: rotate(-10deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+/* Анимация 2 блока */
+.block__element2-2:hover .ellipse9-2-img{
+	animation: move-ellipce9-2 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element2-2:hover .ellipse10-2-img{
+	animation: move-ellipce10-2 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element2-2:hover .ellipse11-img {
+	animation: move-ellipce11-2 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes move-ellipce9-2 {
+	0%{
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(150%)translateY(50%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(0%)translateY(50%);
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(250%)translateY(75%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+}
+@keyframes move-ellipce10-2 {
+	0%{
+		transform:translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(250%)translateY(50%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform:translateX(200%)translateY(100%);
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	75%{
+		transform:translateX(-50%)translateY(50%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		border-radius: 50%;
+	}
+}
+@keyframes move-ellipce11-2 {
+	0%{
+		transform:translateX(0%)translateY(0%);
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+	}
+	25%{
+		transform: translateX(-400%)translateY(-70%);
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+	}
+	50%{
+		transform:translateX(-200%)translateY(-85%);
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+	}
+	75%{
+		transform:translateX(-300%)translateY(20%);
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+}
+/* Анимация 3 блока */
+.block__element3-3:hover .ellipse9-img{
+	animation: move-ellipce9-3 8s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element3-3:hover .ellipse10-img{
+	animation: move-ellipce10-3 8s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element3-3:hover .ellipse11-img {
+	animation: move-ellipce11-3 8s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes  move-ellipce9-3 {
+	0%{
+		border-radius: 50%;
+		position: absolute;
+		top: 0%;
+		left: 40%;
+	}
+	25%{
+		transform: translateX(-110%)translateY(70%);
+		position: absolute;
+		top: 0%;
+		left: 40%;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		top: 0%;
+		left: 40%;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(-110%)translateY(70%);
+		position: absolute;
+		top: 0%;
+		left: 40%;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		top: 0%;
+		left: 40%;
+		border-radius: 50%;
+	}
+}
+@keyframes  move-ellipce10-3 {
+	0%{
+		border-radius: 50%;
+		position: absolute;
+		top: 30%;
+		left: 10%;
+	}
+	25%{
+		transform: translateX(550%)translateY(0%);
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(500%)translateY(0%);
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		border-radius: 50%;
+	}
+}
+
+@keyframes  move-ellipce11-3 {
+	0%{
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+	}
+	25%{
+		transform: translateX(-650%)translateY(-250%);
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	75%{
+		transform: translateX(-650%)translateY(-250%);
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		transform: translateX(0%)translateY(0%);
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		border-radius: 50%;
+	}
+}
+
+/* Анимация 4 блока */
+
+.block__element4-4:hover .ellipse9-4-img{
+	animation: move-ellipce9-4 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element4-4:hover .ellipse10-4-img{
+	animation: move-ellipce10-4 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+.block__element4-4:hover .ellipse11-img {
+	animation: move-ellipce11-4 10s ease-in-out forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes move-ellipce9-4 {
+	0%{
+		border-radius: 50%;
+		position: absolute;
+		height: 125px;
+		width: 125px;
+		top:0%;
+		left: 0%;
+	}
+	25%{
+		transform: translateX(-110%)translateY(70%);
+		position: absolute;
+		top:0%;
+		left: 0%;
+		height: 75px;
+		width: 75px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(-250%)translateY(70%);
+		position: absolute;
+		top:0%;
+		left: 0%;
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+	}
+	75%{
+		position: absolute;
+		top:0%;
+		left: 0%;
+		height: 75px;
+		width: 75px;
+		border-radius: 50%;
+	}
+	100%{
+		position: absolute;
+		top:0%;
+		left: 0%;
+		border-radius: 50%;
+		height: 125px;
+		width: 125px;
+	}
+}
+@keyframes move-ellipce10-4 {
+	0%{
+		border-radius: 50%;
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		top:0%;
+		left: 40%;
+	}
+	25%{
+		transform: translateX(-110%)translateY(70%);
+		position: absolute;
+		top:0%;
+		left: 40%;
+		height: 75px;
+		width: 75px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(-250%)translateY(70%);
+		position: absolute;
+		top:0%;
+		left: 40%;
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+	}
+	75%{
+		position: absolute;
+		top:0%;
+		left: 40%;
+		height: 75px;
+		width: 75px;
+		border-radius: 50%;
+	}
+	100%{
+		position: absolute;
+		top:0%;
+		left: 40%;
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+	}
+}
+@keyframes move-ellipce11-4 {
+	0%{
+		border-radius: 50%;
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		top:0%;
+		left: -30%;
+	}
+	25%{
+		transform: translateX(200%)translateY(0%);
+		position: absolute;
+		top:0%;
+		left: -30%;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+	}
+	50%{
+		transform: translateX(550%)translateY(-50%);
+		position: absolute;
+		top:0%;
+		left: -30%;
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+	}
+	75%{
+		position: absolute;
+		top:0%;
+		left: -30%;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+	}
+	100%{
+		position: absolute;
+		top:0%;
+		left: -30%;
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+	}
+}
+.block__elemet{
+	border: 2px solid #79C800;
+	border-radius: 16px;
+	width: 376px;
+	height: 188px;
+	stroke: #79C800;
+	fill: #fff 30%;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(8px);
+}
+.lid-img{
+	position: absolute;
+	top: 19px;
+	left: 48.5%;
+	transform:rotate(-20deg);
+}
+.block__category{
+	height: 0px;
+	flex: 0 1 100%;
+}
+.content__title{
+	font-size: 40px;
+	margin-bottom: 18px;
+	color: #201714;
+}
+.content__decotarion{
+	width: 88px;
+	height: 4px;
+	background-color: #FFCC01;
+}
+.content__text{
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 14px;
+}
+.content__text{
+	margin-top: 30px;
+}
+.content__text4,.content__text2-2{
+	margin-top:5px;
+}
+.content__text3{
+	margin-top:55px;
+}
+.block__element-img1,.block__element-img1-1,.block__element4 img,.block__element4-4 img{
+	margin-top:22px;
+	margin-left: 170px;
+}
+.block__element-img1-1{
+	margin-top:34px;
+}
+.block__element-img3{
+	margin-left: 140px;
+	margin-top: 24px;
+}
+.block__element-img3.img-frame{
+	margin-right: 38px;
+}
+.img-frame2{
+	margin-right: 15px;
+	margin-bottom: -27px;
+}
+.block__element-img1 img{
+	margin-right: 15px;
+}
+.block__element2 img,.block__element2-2 img{
+	margin-top: 20px;
+	margin-left: 240px;
+}
+.block__element-img3-3{
+	margin-left: 120px;
+	margin-top: 0px;
+}
+.block__element-img3-3 .img-frame{
+	margin-bottom: -10px;
+	margin-right: 5px;
+}
+.block__element-img3-3 .img-frame2{
+	margin-bottom: -50px;
+}
+.img-frame4{
+	margin-top: 10px;
+	margin-bottom: -50px;
+}
+.content__text3-3{
+	margin-top:70px;
+}
+/* Круги */
+.ellipse{
+	position:absolute;
+	
+}
+.ellipse10-img{
+	left: 64px;
+}
+.ellipse9-img{
+	top: 0px;
+}
+.ellipse11-img{
+right: 0;
+bottom: 0;
+}
+.ellipse9-2-img{
+	top: -20px;
+	left: -65%;
+}
+.ellipse10-2-img{
+	top: -20px;
+	left: -48%;
+}
+.ellipse9-4-img{
+	top: -20px;
+	left: -45%;
+}
+.ellipse10-4-img{
+	top: -20px;
+	left: -28%;
+}
